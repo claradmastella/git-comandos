@@ -1,0 +1,1 @@
+Criação de uma nova implementação fictícia que justifique a criação de uma nova branch
