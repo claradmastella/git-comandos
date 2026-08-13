@@ -1,24 +1,24 @@
-## `git config`
+### `git config`
 Um dos comandos git mais usados é o **"git config"** que pode ser usado para definir valores de configuração específicos do usuário como e-mail, algoritmo preferido para diff, nome de usuário e formato de arquivo etc.
    Por exemplo, o seguinte comando pode ser usado para definir o email: 
    `git config --global user.email exemplo@google.com `
 
-## `git clone`
+### `git clone`
 O comando git clone é usado para fins de verificação de repositório. Se o repositório estiver em um servidor remoto, use: 
    `git clone alex@93.188.160.58:/path/to/repository`
 
 Por outro lado, se uma cópia de trabalho de um repositório local for criada, use: 
    `git clone /path/to/repository`
 
-## `git init`
+### `git init`
 criar novo repositório 
 
-## `git status`
+### `git status`
 Verificar estado dos arquivos/diretórios
 
 ---
  
-## Adicionar arquivo/diretório (staged area) 
+### Adicionar arquivo/diretório (staged area) 
 
 Adicionar um arquivo em específico:
    `git add meu_arquivo.txt`
@@ -37,7 +37,7 @@ O comando **"git add"** pode ser usado para adicionar arquivos ao índice. Por e
 
 ---
 
-## Commitar arquivo/diretório 
+### Commitar arquivo/diretório 
 
 Commitar um arquivo 
    `git commit meu_arquivo.txt`
@@ -61,13 +61,13 @@ O comando **"git status"** exibe a lista de arquivos alterados juntamente com os
 
 O comando **"git remote"** permite que um usuário se conecte a um repositório remoto. O comando a seguir lista os repositórios remotos atualmente configurados: 
 
-## `git remote –v`
+### `git remote –v`
    Esse comando permite que o usuário se conecte a um servidor remoto:
    `git remote add origin <93.188.160.58>``
 
 ---
 
-## Branches
+### Branches
 
 O comando **"git checkout"** pode ser usado para criar ramos ou alternar entre eles. Por exemplo, o seguinte cria um novo ramo e muda para ele:
    `command git checkout -b <branch-name>`
@@ -75,7 +75,7 @@ O comando **"git checkout"** pode ser usado para criar ramos ou alternar entre e
 Para simplesmente mudar de um ramo para outro, use:
    `git checkout <branch-name>`
 
-## `git branch`
+### `git branch`
    Mostra todas as branches existentes no repositório
 
 Para excluir um ramo:
